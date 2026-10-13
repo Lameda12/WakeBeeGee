@@ -96,6 +96,8 @@ Preferences stay in UserDefaults; app-license data stays in macOS Keychain. Pola
 
 Hi, I'm Aditya. I'm new to open source and learning as I go. If you spot something I could improve in the code, documentation, or how I maintain this project, I'd love your feedback. Suggestions and contributions are welcome, whether you're experienced or just getting started too. Thanks for helping me make WakeBee better.
 
+If you love WakeBee, consider [contributing to the project](CONTRIBUTING.md). If you can't contribute right now, you can support its development by [purchasing a license key](https://buy.polar.sh/polar_cl_HMkc1qGmstC5HhR91Tz3XMqlAbV2MLKp1JvyS2xPMrC). Starring the repo or sharing it with someone who might find it useful helps too. Thank you for your support!
+
 ## Contributing
 
 Bug reports, documentation improvements, and pull requests are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) for the development workflow and what to include in a report.
