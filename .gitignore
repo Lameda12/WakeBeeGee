@@ -8,3 +8,9 @@ artifacts/
 __pycache__/
 
 .notary-profile-aliases.json
+
+# Local assistant and design-tool workspace files.
+/.codex/
+/.impeccable/
+/DESIGN.md
+/PRODUCT.md
