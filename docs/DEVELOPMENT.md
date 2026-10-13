@@ -17,7 +17,7 @@ The deployment target is macOS 14. Newer SwiftUI controls are guarded by availab
 open dist/WakeBee.app
 ```
 
-The build stages a complete bundle, signs nested components, verifies the signature, and then replaces the destination. Quit a running copy at that destination before rebuilding.
+The build stages a complete bundle, includes the WakeBee and Sparkle license texts, signs nested components, verifies the signature, and then replaces the destination. Quit a running copy at that destination before rebuilding.
 
 For an everyday edit/build/run cycle:
 

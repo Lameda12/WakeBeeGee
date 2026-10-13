@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  Native macOS app · Swift &amp; SwiftUI · macOS 14+ · MIT licensed
+  Native macOS app · Swift &amp; SwiftUI · macOS 14+ · AGPL-3.0 licensed
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ Sessions are started manually. WakeBee prevents sleep; it does not monitor your 
 
 New installations require a charger by default. To run on battery, review **Settings → General → Battery & Power**. Ending a session or quitting releases normal sleep prevention; sessions do not resume automatically after relaunch or system sleep.
 
-**Source license and app activation:** this repository uses the [MIT License](LICENSE). The current app uses Polar license activation, including unmodified builds from source. You can get an app license at [wakebee.app](https://www.wakebee.app). Automated tests use test doubles and do not require a purchased key.
+**Source license and app activation:** this repository uses the [GNU Affero General Public License v3.0](LICENSE) (`AGPL-3.0-only`). The current app uses Polar license activation, including unmodified builds from source. You can get an app license at [wakebee.app](https://www.wakebee.app). Automated tests use test doubles and do not require a purchased key. Purchasing an activation key supports the official app; it is not an additional condition on the rights granted by the source license.
 
 Upgrading from version 0.14 or earlier? Follow the [one-time migration instructions](Updates/RELEASE.md#one-time-upgrade-from-014-or-earlier).
 
@@ -106,6 +106,8 @@ For bugs, include your Mac model, macOS version, WakeBee version, and steps to r
 
 ## License & acknowledgments
 
-WakeBee is released under the [MIT License](LICENSE).
+Copyright © 2026 Aditya Jaiswal.
+
+WakeBee is licensed under the [GNU Affero General Public License, version 3 only](LICENSE) (`AGPL-3.0-only`). Third-party components retain their own licenses and notices.
 
 Built with Apple's Swift, SwiftUI, AppKit, IOKit, and ServiceManagement frameworks. Automatic updates use [Sparkle](https://github.com/sparkle-project/Sparkle), whose license is included in packaged builds. App-license activation uses [Polar](https://polar.sh).

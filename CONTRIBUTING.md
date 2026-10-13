@@ -37,4 +37,4 @@ Documentation-only changes do not need an app build; check links, commands, and 
 - Keep generated bundles, credentials, Keychain exports, and real license keys out of commits.
 - Say which behavior you tested on hardware and which you checked only in code or simulations.
 
-Contributions are made under the repository's [MIT License](LICENSE).
+Contributions are made under the repository's [GNU Affero General Public License, version 3 only](LICENSE) (`AGPL-3.0-only`).

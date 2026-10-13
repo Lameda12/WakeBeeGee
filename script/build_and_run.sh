@@ -63,6 +63,7 @@ mkdir -p "$APP_CONTENTS/MacOS" "$APP_CONTENTS/Resources" "$APP_CONTENTS/Library/
 mkdir -p "$APP_CONTENTS/Frameworks"
 /usr/bin/ditto "$SPARKLE_FRAMEWORK" "$APP_CONTENTS/Frameworks/Sparkle.framework"
 cp "$SPARKLE_ROOT/LICENSE" "$APP_CONTENTS/Resources/Sparkle-LICENSE.txt"
+cp "$ROOT_DIR/LICENSE" "$APP_CONTENTS/Resources/WakeBee-LICENSE.txt"
 cp "$BUILD_DIR/$APP_NAME" "$APP_BINARY"
 # Retire task-integration executables when updating an earlier bundle in place.
 rm -f "$APP_CONTENTS/MacOS/awakemac-hook" "$APP_CONTENTS/MacOS/awakemac-activity"
