@@ -1,0 +1,10 @@
+.build/
+.swiftpm/
+dist/
+.DS_Store
+artifacts/
+.signing-identity
+.notary-profile
+__pycache__/
+
+.notary-profile-aliases.json
