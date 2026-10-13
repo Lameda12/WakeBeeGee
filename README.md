@@ -92,6 +92,10 @@ Normal sessions use IOKit power assertions to prevent idle sleep. Closed-lid ses
 
 Preferences stay in UserDefaults; app-license data stays in macOS Keychain. Polar handles license verification, and Sparkle checks for signed updates. See [the source](Sources) and [development guide](docs/DEVELOPMENT.md) for the implementation.
 
+## A note from the maker
+
+Hi, I'm Aditya. I'm new to open source and learning as I go. If you spot something I could improve in the code, documentation, or how I maintain this project, I'd love your feedback. Suggestions and contributions are welcome, whether you're experienced or just getting started too. Thanks for helping me make WakeBee better.
+
 ## Contributing
 
 Bug reports, documentation improvements, and pull requests are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) for the development workflow and what to include in a report.
